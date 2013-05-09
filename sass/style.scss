@@ -1,3 +1,12 @@
+/**
+ * Variables
+ */
+
+ $navyblue: #071c3b;
+ $yellow: #e4b640;
+ $black: #111;
+ $white: #f0f3f7;
+
 /* Global */
 
 body {
@@ -34,7 +43,7 @@ a:visited {
 	top:0px;
 	width:100%; 
 	height:auto; 
-	background-color:#ffffff;
+	background-color:$navyblue;
 	z-index:100;
 }
 #logo {
@@ -49,20 +58,23 @@ a:visited {
 	float: right;
 	list-style: none;
 	margin: 0;
-}
-.navigation li{
-	float: left;
-	padding:0 0 0 50px;
-}
-.navigation li:hover{
-	cursor:pointer;
-	color: #a9d3d0;
-}
+	color: $white;
+	
+	li{
+		float: left;
+		padding:0 0 0 50px;
 
-.navigation .active{
-	cursor:pointer;
-	color: #f68f67;
-	font-weight:bold;
+		&:hover{
+			cursor:pointer;
+			color: #a9d3d0;
+		}
+	}
+
+	.active{
+		cursor:pointer;
+		color: $yellow;
+		font-weight:bold;
+	}
 }
 
 
