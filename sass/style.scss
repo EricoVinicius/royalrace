@@ -88,6 +88,7 @@ a:visited {
 	height:auto;
 	position: relative;
 	padding:140px 0;
+	color: $white;
 }
 
 
@@ -96,20 +97,30 @@ a:visited {
 
 #slide1{
 	background-color:#ffffff;
+	background-image:url('../images/new-westminster.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	img {
+		margin: 10px auto 30px;
+	}
 }
+
 #slide1 h1 {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#8a8683;
 	font-weight: 700;
+	color: $navyblue
 }
 #slide1 h2 {
 	font-size: 2em;
-	color: #8a8683;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
+	margin-bottom: 20px;
+	color:$navyblue
 }
 
 
