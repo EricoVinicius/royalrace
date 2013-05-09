@@ -1,0 +1,368 @@
+/* Global */
+/* line 3, ../sass/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #8a8683;
+  background-color: #ffffff;
+}
+
+/* line 10, ../sass/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 13, ../sass/style.scss */
+a:link {
+  color: #f68f67;
+  text-decoration: none;
+}
+
+/* line 17, ../sass/style.scss */
+a:hover {
+  color: #bde2df;
+  text-decoration: none;
+}
+
+/* line 21, ../sass/style.scss */
+a:visited {
+  color: #f68f67;
+  text-decoration: none;
+}
+
+/* Navigation */
+/* line 32, ../sass/style.scss */
+.menu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+/* line 40, ../sass/style.scss */
+#logo {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* line 44, ../sass/style.scss */
+#nav {
+  text-align: right;
+  margin: 30px 0 0 0;
+}
+
+/* line 48, ../sass/style.scss */
+.navigation {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 53, ../sass/style.scss */
+.navigation li {
+  float: left;
+  padding: 0 0 0 50px;
+}
+
+/* line 57, ../sass/style.scss */
+.navigation li:hover {
+  cursor: pointer;
+  color: #a9d3d0;
+}
+
+/* line 62, ../sass/style.scss */
+.navigation .active {
+  cursor: pointer;
+  color: #f68f67;
+  font-weight: bold;
+}
+
+/* General Slides */
+/* line 73, ../sass/style.scss */
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 140px 0;
+}
+
+/* Slide 1 */
+/* line 85, ../sass/style.scss */
+#slide1 {
+  background-color: #ffffff;
+}
+
+/* line 88, ../sass/style.scss */
+#slide1 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color: #8a8683;
+  font-weight: 700;
+}
+
+/* line 95, ../sass/style.scss */
+#slide1 h2 {
+  font-size: 2em;
+  color: #8a8683;
+  line-height: 0px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Slide 2 */
+/* line 108, ../sass/style.scss */
+#slide2 {
+  background-image: url("../images/footprints.png");
+  background-color: #f68f67;
+  color: #ffffff;
+}
+
+/* line 113, ../sass/style.scss */
+#slide2 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* line 120, ../sass/style.scss */
+#slide2 h2 {
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Slide 3 */
+/* line 133, ../sass/style.scss */
+#slide3 {
+  background-color: #ffffff;
+}
+
+/* line 136, ../sass/style.scss */
+#slide3 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color: #8a8683;
+  font-weight: 700;
+}
+
+/* line 143, ../sass/style.scss */
+#slide3 h2 {
+  font-size: 2em;
+  color: #8a8683;
+  line-height: 0px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+/* line 150, ../sass/style.scss */
+#test {
+  background-color: #bde2df;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+/* Slide 4 */
+/* line 163, ../sass/style.scss */
+#slide4 {
+  background-image: url("../images/sunglasses.png");
+  background-color: #8a8683;
+  color: #ffffff;
+}
+
+/* line 168, ../sass/style.scss */
+#slide4 h1 {
+  font-size: 3.8em;
+  letter-spacing: -3px;
+  line-height: 0px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* line 175, ../sass/style.scss */
+#slide4 h2 {
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 0px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  /* line 190, ../sass/style.scss */
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 195, ../sass/style.scss */
+  #nav {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  /* line 201, ../sass/style.scss */
+  .navigation {
+    width: 100%;
+    float: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 209, ../sass/style.scss */
+  .navigation li {
+    float: left;
+    width: 25%;
+    padding: 0;
+  }
+
+  /* line 215, ../sass/style.scss */
+  .slide {
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+  }
+
+  /* line 222, ../sass/style.scss */
+  #decorative {
+    display: none;
+  }
+
+  /* line 226, ../sass/style.scss */
+  #content {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 231, ../sass/style.scss */
+  #slide1 h1 {
+    line-height: 1em;
+  }
+
+  /* line 234, ../sass/style.scss */
+  #slide1 h2 {
+    line-height: 1em;
+  }
+
+  /* line 237, ../sass/style.scss */
+  #slide2 h1 {
+    line-height: 1em;
+  }
+
+  /* line 240, ../sass/style.scss */
+  #slide2 h2 {
+    line-height: 1em;
+  }
+
+  /* line 243, ../sass/style.scss */
+  #slide3 h1 {
+    line-height: 1em;
+  }
+
+  /* line 246, ../sass/style.scss */
+  #slide3 h2 {
+    line-height: 1em;
+  }
+
+  /* line 249, ../sass/style.scss */
+  #slide4 h1 {
+    line-height: 1em;
+  }
+
+  /* line 252, ../sass/style.scss */
+  #slide4 h2 {
+    line-height: 1em;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 480px) {
+  /* line 264, ../sass/style.scss */
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 269, ../sass/style.scss */
+  #nav {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  /* line 274, ../sass/style.scss */
+  .navigation {
+    width: 100%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 282, ../sass/style.scss */
+  .navigation li {
+    float: left;
+    width: 25%;
+  }
+
+  /* line 287, ../sass/style.scss */
+  .slide {
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+  }
+
+  /* line 295, ../sass/style.scss */
+  #slide1 h1 {
+    line-height: 1em;
+  }
+
+  /* line 298, ../sass/style.scss */
+  #slide1 h2 {
+    line-height: 1em;
+  }
+
+  /* line 301, ../sass/style.scss */
+  #slide2 h1 {
+    line-height: 1em;
+  }
+
+  /* line 304, ../sass/style.scss */
+  #slide2 h2 {
+    line-height: 1em;
+  }
+
+  /* line 307, ../sass/style.scss */
+  #slide3 h1 {
+    line-height: 1em;
+  }
+
+  /* line 310, ../sass/style.scss */
+  #slide3 h2 {
+    line-height: 1em;
+  }
+
+  /* line 313, ../sass/style.scss */
+  #slide4 h1 {
+    line-height: 1em;
+  }
+
+  /* line 316, ../sass/style.scss */
+  #slide4 h2 {
+    line-height: 1em;
+  }
+}
