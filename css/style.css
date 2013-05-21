@@ -163,6 +163,7 @@ button.skip {
   position: relative;
   padding: 100px 0;
   color: #f0f3f7;
+  background-size: cover;
 }
 
 /* Slide 1 */

@@ -1,6 +1,15 @@
 jQuery(document).ready(function ($) {
 
 
+    var menuHeight = $(".menu").outerHeight();
+    var bodyHeight = $(window).outerHeight();
+    var sectionHeight = bodyHeight - menuHeight;
+
+    $(".slide").css(
+        {"min-height":sectionHeight}
+    );
+
+
     $(window).stellar();
 
     var links = $('.navigation').find('li');
